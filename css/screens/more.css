@@ -1,0 +1,64 @@
+.user-component__subtitle {
+  font-size: 12px;
+}
+
+.user-component__subtitle span {
+  background-color: red;
+}
+
+.more-icons__all {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.first-icons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.more-icons__icon-first-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-icons__icon-first-line i {
+  font-size: 35px;
+}
+
+.second-icons {
+  display: flex;
+  justify-content: first baseline;
+}
+.more-icons__icon-second-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-icons__icon-second-line i {
+  font-size: 35px;
+}
+
+.more-suggestion {
+  padding-top: 20px;
+}
+
+.more-application__picture img {
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.more-application__picture {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.more-application__picture span {
+  font-size: 10px;
+  flex-direction: column;
+  align-items: center;
+}

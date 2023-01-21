@@ -1,9 +1,10 @@
 .screen-header {
   display: flex;
-  padding: var(--horizontal-space);
-  margin-top: 15px;
-  align-items: center;
   justify-content: space-between;
+  padding: var(--horizontal-space);
+  margin-top: 20px;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -11,6 +12,18 @@
   font-weight: 600;
 }
 
-.screen-header__icons span {
-  margin-left: 20px;
+.screen-header__icons {
+  margin-left: var(--horizontal-space);
+  position: relative;
+}
+
+.screen-header__cog-dot {
+  color: red;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 42px;
+  bottom: 15px;
 }
