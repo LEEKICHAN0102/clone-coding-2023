@@ -8,3 +8,14 @@
   align-items: center;
   color: white;
 }
+
+.screen-header__badge-dot {
+  color: red;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  left: 70px;
+}

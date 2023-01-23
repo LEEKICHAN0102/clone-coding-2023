@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>More-kokoa-clone</title>
+    <title>More-KoKoa-Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -30,72 +30,74 @@
       <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span class="screen-header__cog-dot">.</span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+        <span class="screen-header__badge-dot">.</span>
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
             src="/screenshots/nicco.png"
-            class="user-component__avatar user-component__avatar"
+            class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Nicolas</h4>
             <h6 class="user-component__subtitle">
-              +1 787-493-4219 <span>!</span>
+              +82 010-6248-5173<i class="fas fa-exclamation-triangle"></i>
             </h6>
           </div>
         </div>
         <div class="user-component__column">
-          <div class="user-component__message">
-            <i class="fas fa-envelope-square fa-2x"></i>
-          </div>
+          <i class="fas fa-comment-alt fa-2x"></i>
         </div>
       </div>
-      <div class="more-icons__all">
-        <div class="first-icons">
-          <div class="more-icons__icon-first-line">
-            <i class="far fa-calendar-check"></i>
-            <span>Calender</span>
-          </div>
-          <div class="more-icons__icon-first-line">
-            <i class="far fa-address-book"></i>
-            <span>Talk Drive</span>
-          </div>
-          <div class="more-icons__icon-first-line">
-            <i class="far fa-smile"></i>
-            <span>Emoticns</span>
-          </div>
-          <div class="more-icons__icon-first-line">
-            <i class="fas fa-brush"></i>
-            <span>Theme</span>
-          </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR code</span>
         </div>
-        <div class="second-icons">
-          <div class="more-icons__icon-second-line">
-            <i class="far fa-circle"></i>
-            <span>Account</span>
-          </div>
-          <div class="more-icons__icon-second-line">
-            <i class="far fa-comments"></i>
-            <span>Openchat</span>
-          </div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Finger-print</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-smile-beam"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-calendar-week"></i>
+          <span>Calender</span>
         </div>
       </div>
       <div class="more-suggestion">
-        <h5 class="more-suggestion__title">Suggestions</h5>
-      </div>
-      <div class="more-application__picture">
-        <img src="screenshots/ch.png" />
-        <span>Kokoa Story</span>
-        <img src="screenshots/nicco.png" />
-        <span>Kokoa friends</span>
-        <img src="screenshots/ralo.png" />
-        <span>Friend Gem</span>
+        <h4 class="more-suggestion__title">Suggestions</h4>
+        <div class="more-suggestion__icons">
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestion__icon-text"> KoKoa story </span>
+          </div>
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-image">
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <span class="more-suggestion__icon-text"> KoKoa story </span>
+          </div>
+        </div>
       </div>
     </main>
 

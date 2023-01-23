@@ -16,14 +16,3 @@
   margin-left: var(--horizontal-space);
   position: relative;
 }
-
-.screen-header__cog-dot {
-  color: red;
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 42px;
-  bottom: 15px;
-}
